@@ -1,0 +1,6 @@
+<settings>
+    <setting id="downloadPath" value="./tmp" />
+    <setting id="notification_length" value="2" />
+    <setting id="hideDuringPlayback" value="true" />
+    <setting id="stall_timeout" value="2" />
+</settings>
