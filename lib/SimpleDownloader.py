@@ -29,8 +29,8 @@ class SimpleDownloader():
     dialog = u""
 
     def __init__(self):
-        self.version = u"0.9.4"
-        self.plugin = u"SimpleDownloader Beta-" + self.version
+        self.version = u"1.9.4"
+        self.plugin = u"SimpleDownloader-" + self.version
 
         if hasattr(sys.modules["__main__"], "common"):
             self.common = sys.modules["__main__"].common
@@ -53,7 +53,7 @@ class SimpleDownloader():
             import xbmcaddon
             self.xbmcaddon = xbmcaddon
 
-        self.settings = self.xbmcaddon.Addon(id='script.module.simple.downloader.beta')
+        self.settings = self.xbmcaddon.Addon(id='script.module.simple.downloader')
 
         if hasattr(sys.modules["__main__"], "xbmc"):
             self.xbmc = sys.modules["__main__"].xbmc

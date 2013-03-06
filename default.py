@@ -8,10 +8,10 @@ import xbmcaddon
 import cookielib
 import urllib2
 
-settings = xbmcaddon.Addon(id='script.module.simple.downloader.beta')
+settings = xbmcaddon.Addon(id='script.module.simple.downloader')
 language = settings.getLocalizedString
-version = "0.9.4"
-plugin = "SimpleDownloader Beta-" + version
+version = "1.9.4"
+plugin = "SimpleDownloader-" + version
 core = ""
 common = ""
 downloader = ""
